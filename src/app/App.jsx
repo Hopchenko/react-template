@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="App">
-          <h1>Checkmarx</h1>
+          <h1>template</h1>
         </div>
       </Router>
     </Provider>

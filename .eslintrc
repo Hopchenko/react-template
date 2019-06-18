@@ -40,7 +40,8 @@
       }
     ],
     "import/newline-after-import": "error",
-    "no-multiple-empty-lines": "error"
+    "no-multiple-empty-lines": "error",
+    "indent": ["error", 2]
   },
   "globals": {
     "window": true,
@@ -51,5 +52,5 @@
     "Blob": true,
     "navigator": true
   },
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
 }

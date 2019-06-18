@@ -1,5 +1,5 @@
 {
-  "name": "checkmarx",
+  "name": "template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,7 +35,7 @@
     "stylelint-config-standard": "^18.3.0"
   },
   "lint-staged": {
-    "*.{js,jsx,css}": [
+    "*.{js,jsx,scss}": [
       "pretty-quick --staged",
       "eslint src/ --fix",
       "git add"
