@@ -41,7 +41,29 @@
     ],
     "import/newline-after-import": "error",
     "no-multiple-empty-lines": "error",
-    "indent": ["error", 2]
+    "lines-between-class-members": [
+      "error",
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-unused-expressions": "error",
+    "react/destructuring-assignment": false,
+    "react/button-has-type": false,
+    "react/prefer-stateless-function": false,
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ]
   },
   "globals": {
     "window": true,
@@ -50,7 +72,8 @@
     "FormData": true,
     "FileReader": true,
     "Blob": true,
-    "navigator": true
+    "navigator": true,
+    "alert": true
   },
-  "parser": "babel-eslint",
+  "parser": "babel-eslint"
 }
